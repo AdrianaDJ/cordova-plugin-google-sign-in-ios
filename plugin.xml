@@ -6,7 +6,7 @@
 -->
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
     id="cordova-plugin-google-sign-in-ios"
-    version="2.0.1">
+    version="2.0.2">
   <engines>
     <engine name="cordova" version=">=3.0.0" />
   </engines>
@@ -19,6 +19,7 @@
   <platform name="ios">
     <dependency id="cordova-plugin-google-open-source-ios@1.7" />
     <framework src="GoogleSignIn.framework" custom="true" />
+    <framework src="GoogleSignIn.bundle" custom="true" />
     <framework src="AddressBook.framework" />
     <framework src="CoreText.framework" />
     <framework src="StoreKit.framework" />
