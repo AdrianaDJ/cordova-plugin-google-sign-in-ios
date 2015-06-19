@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
-  Copyright (c) 2013 The Chromium Authors. All rights reserved.
+  Copyright 2015 The Chromium Authors. All rights reserved.
   Use of this source code is governed by a BSD-style license that can be
   found in the LICENSE file.
 -->
@@ -13,13 +13,14 @@
 
   <name>Google Sign-in for iOS Framework Plugin</name>
   <keywords>google,sing-in,iOS,framework</keywords>
-  <repo>https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios</repo>
-  <issue>https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios/issues</issue>
+  <repo>https://github.com/MobileChromeApps/cordova-plugin-google-sign-in-ios</repo>
+  <issue>https://github.com/MobileChromeApps/cordova-plugin-google-sign-in-ios/issues</issue>
 
   <platform name="ios">
-    <dependency id="cordova-plugin-google-open-source-ios" />
+    <dependency id="cordova-plugin-google-open-source-ios@1.7" />
     <framework src="GoogleSignIn.framework" custom="true" />
     <framework src="AddressBook.framework" />
+    <framework src="CoreText.framework" />
     <framework src="StoreKit.framework" />
     <framework src="SystemConfiguration.framework" />
   </platform>

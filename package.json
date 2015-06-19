@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios.git"
+    "url": "https://github.com/MobileChromeApps/cordova-plugin-google-sign-in-ios.git"
   },
   "keywords": [
     "google",
@@ -28,7 +28,7 @@
   ],
   "author": "",
   "bugs": {
-    "url": "https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios/issues"
+    "url": "https://github.com/MobileChromeApps/cordova-plugin-google-sign-in-ios/issues"
   },
-  "homepage": "https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios"
+  "homepage": "https://github.com/MobileChromeApps/cordova-plugin-google-sign-in-ios"
 }
