@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-google-sign-in-ios",
+  "version": "2.0.1",
+  "description": "This Cordova plugin adds the Google Sign-in for iOS framework to a project.",
+  "cordova": {
+    "id": "cordova-plugin-google-sign-in-ios",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios.git"
+  },
+  "keywords": [
+    "google",
+    "sign-in",
+    "iOS",
+    "framework",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios/issues"
+  },
+  "homepage": "https://github.com/gbenvenuti/cordova-plugin-google-sign-in-ios"
+}
