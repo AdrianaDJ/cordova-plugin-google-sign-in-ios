@@ -1,12 +1,12 @@
-//
-//  GIDGoogleUser.h
-//  Google Sign-In iOS SDK
-//
-//  Copyright 2014 Google Inc.
-//
-//  Use of this SDK is subject to the Google APIs Terms of Service:
-//  https://developers.google.com/terms/
-//
+/*
+ * GIDGoogleUser.h
+ * Google Sign-In iOS SDK
+ *
+ * Copyright 2014 Google Inc.
+ *
+ * Use of this SDK is subject to the Google APIs Terms of Service:
+ * https://developers.google.com/terms/
+ */
 
 #import <Foundation/Foundation.h>
 
@@ -14,7 +14,6 @@
 @class GIDProfileData;
 
 // This class represents a user account.
-//
 @interface GIDGoogleUser : NSObject <NSCoding>
 
 // The Google user ID.

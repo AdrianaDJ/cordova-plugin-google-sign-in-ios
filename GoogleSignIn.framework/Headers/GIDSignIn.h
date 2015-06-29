@@ -1,12 +1,12 @@
-//
-//  GIDSignIn.h
-//  Google Sign-In iOS SDK
-//
-//  Copyright 2012 Google Inc.
-//
-//  Use of this SDK is subject to the Google APIs Terms of Service:
-//  https://developers.google.com/terms/
-//
+/*
+ * GIDSignIn.h
+ * Google Sign-In iOS SDK
+ *
+ * Copyright 2012 Google Inc.
+ *
+ * Use of this SDK is subject to the Google APIs Terms of Service:
+ * https://developers.google.com/terms/
+ */
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -24,7 +24,8 @@ typedef NS_ENUM(NSInteger, GIDSignInErrorCode) {
   // Indicates a problem reading or writing to the application keychain.
   kGIDSignInErrorCodeKeychain = -2,
   // Indicates no appropriate applications are installed on the user's device which can handle
-  // sign-in. This code will only ever be returned if switching to Safari has been disabled.
+  // sign-in. This code will only ever be returned if using webview and switching to browser have
+  // both been disabled.
   kGIDSignInErrorCodeNoSignInHandlersInstalled = -3,
   // Indicates there are no auth tokens in the keychain. This error code will be returned by
   // signInSilently if the user has never signed in before with the given scopes, or if they have
@@ -177,8 +178,7 @@ typedef NS_ENUM(NSInteger, GIDSignInErrorCode) {
 // succeeds, the OAuth 2.0 token is also removed from keychain.
 - (void)disconnect;
 
-// Checks if a Google app to handle sign in requests is installed on the user's
-// device (mobile Safari will be used to sign in users if no such app is installed).
+// Checks if a Google app to handle sign in requests is installed on the user's device.
 - (void)checkGoogleSignInAppInstalled:(void (^)(BOOL isInstalled))callback;
 
 @end

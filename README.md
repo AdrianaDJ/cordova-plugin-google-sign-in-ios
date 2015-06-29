@@ -6,6 +6,9 @@ The SDK is available directly here: https://developers.google.com/identity/sign-
 
 # Release Notes
 
+## 2.1.0 (June 29, 2015)
+- Updated sdk version to 2.1.0
+
 ## 2.0.2 (June 19, 2015)
 - Added missing bundle, required for webview login
 
