@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-google-sign-in-ios",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "This Cordova plugin adds the Google Sign-in for iOS framework to a project.",
   "cordova": {
     "id": "cordova-plugin-google-sign-in-ios",
